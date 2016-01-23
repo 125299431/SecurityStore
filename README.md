@@ -1,6 +1,6 @@
 # SecurityStore
 
-SecurityStore is a simple wrapper for accessing keychain iOS.It is simple to use like NSUserDefault.
+SecurityStore is a simple wrapper like NSUserDefaults style for saving sensitive data using the system Keychain on iOS.
 
 ## Adding to Your Project
 
@@ -16,7 +16,7 @@ Add `SecurityStore.h`, `SecurityStore.m` to your project.
 
 SecurityStore requires ARC.
 
-## Working with the Keychain
+## Working with the Keychain like using NSUserDefaults
 
 SecurityStore has the following class methods for working with the system keychain:
 
